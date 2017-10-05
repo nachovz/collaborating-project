@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Git distributed project</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="headerContent"></div>
+        <div id="htmlContent"></div>
+        <div id="footerContent"></div>
+        
+        <!-- Loading content -->
+        <script type="text/javascript">
+            $(function(){
+                $("#headerContent").load("head.html");
+                $("#footerContent").load("footer.html");
+            });
+        </script>
+    </body>
+</html>
