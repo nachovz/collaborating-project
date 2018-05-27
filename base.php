@@ -11,28 +11,19 @@
 
     <body>
         <!-- Navigation + Big Promotional Content (Jumbotron) -->
-        <div id="team5"></div>
+        <?php require_once "team5.html";?>
         <!-- Services -->
-        <div id="team2"></div>
+        <?php require_once "team2.html";?>
         <!-- Description Blocks -->
-        <div id="team4"></div>
+        <?php require_once "team4.html";?>
         <!-- Testimonials -->
-        <div id="team3"></div>
+        <?php require_once "team3.html";?>
         <!-- Call-to-action + Footer -->
-        <div id="team1"></div>
+        <?php require_once "team1.html";?>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
         <!-- Loading content -->
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $("#team1").load("team1.html");
-                $("#team2").load("team2.html");
-                $("#team3").load("team3.html");
-                $("#team4").load("team4.html");
-                $("#team5").load("team5.html");
-            });
-        </script>
     </body>
 </html>
